@@ -1,19 +1,9 @@
 import express from "express"
-import routeTickets from "./routes/tickets.routes"
+import routeDepto from "./routes/depto.routes"
 
 const app = express()
 app.use(express.json())
-app.use("/Tickets", routeTickets)
-
-
-
-
-
-
-
-
-
-
+app.use("/departamentos", routeDepto)
 
 //exportar aplicacion
 export default app

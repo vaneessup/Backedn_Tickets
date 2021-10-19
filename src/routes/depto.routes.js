@@ -1,5 +1,5 @@
 import {Router} from "express"
-import { getTickets, insert, update, deleteTicket } from "../controllers/ticket.controller"
+import { getTickets, insert, update, deleteTicket } from "../controllers/depto.controller"
 const router = Router()
 router.get ("/", getTickets)
 router.post ("/", insert)
